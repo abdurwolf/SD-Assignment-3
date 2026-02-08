@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Readify | Page Name</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <!-- Logo + Menu -->
+    </nav>
+  </header>
+
+<main>
+
+  <section id="progress-tracker">
+    <h1>Reading Progress Tracker</h1>
+
+    <!-- INPUT FORM -->
+    <form id="tracker-form">
+      <label for="totalPages">Total Pages</label>
+      <input type="number" id="totalPages" required>
+
+      <label for="pagesRead">Pages Read</label>
+      <input type="number" id="pagesRead" required>
+
+      <label for="readingSpeed">Reading Speed (pages/day)</label>
+      <input type="number" id="readingSpeed" required>
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <!-- RESULTS -->
+    <section id="tracker-results">
+      <p>Progress: <span id="progressPercent">0%</span></p>
+
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+
+      <p>Estimated Finish Time: <span id="finishTime">-</span></p>
+    </section>
+
+  </section>
+
+</main>
+
+
+  <footer>
+    <!-- Footer links + newsletter -->
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/tracker.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Readify | Page Name</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <!-- Logo + Menu -->
+    </nav>
+  </header>
+
+<main>
+
+  <section id="reading-flow">
+    <h1>Reading Flow</h1>
+
+    <!-- AMBIENT SOUND CONTROLS -->
+    <div class="sound-controls">
+      <h2>Cozy Sounds</h2>
+
+      <button id="playSound">Play</button>
+      <button id="pauseSound">Pause</button>
+    </div>
+
+    <!-- COMPLETED BOOKS -->
+    <div class="completed-books">
+      <h2>Completed Books</h2>
+
+      <input type="text" id="completedBookInput" placeholder="Enter book name">
+      <button id="addCompletedBook">Add</button>
+
+      <ul id="completedBooksList">
+        <!-- Completed books added via JS -->
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+
+  <footer>
+    <!-- Footer links + newsletter -->
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/flow.js"></script>
+  <audio controls src="assets/sounds/cozy.mp3"></audio>
+
+</body>
+</html>

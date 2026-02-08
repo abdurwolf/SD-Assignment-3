@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Readify | Page Name</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <!-- Logo + Menu -->
+    </nav>
+  </header>
+
+<main>
+
+  <section id="book-recommender">
+    <h1>Random Book Recommender</h1>
+
+    <!-- FILTER OPTIONS -->
+    <div class="recommender-filters">
+      <label for="genreSelect">Genre</label>
+      <select id="genreSelect">
+        <option value="all">All</option>
+        <option value="fiction">Fiction</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="sci-fi">Sci-Fi</option>
+        <option value="mystery">Mystery</option>
+      </select>
+
+      <label for="lengthSelect">Length</label>
+      <select id="lengthSelect">
+        <option value="short">Short</option>
+        <option value="medium">Medium</option>
+        <option value="long">Long</option>
+      </select>
+
+      <button id="recommendBtn">Recommend</button>
+    </div>
+
+    <!-- RECOMMENDATION DISPLAY -->
+    <div id="recommendation">
+      <h2 id="recTitle">Book Title</h2>
+      <p id="recAuthor">Author</p>
+      <p id="recDesc">Short description will appear here.</p>
+
+      <button id="saveBtn">Save to Reading List</button>
+      <button id="pickAgainBtn">Pick Again</button>
+    </div>
+  </section>
+
+</main>
+>
+
+  <footer>
+    <!-- Footer links + newsletter -->
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/recommender.js"></script>
+
+</body>
+</html>
